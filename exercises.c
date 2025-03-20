@@ -145,6 +145,7 @@ int parentesisBalanceados(char *cadena) {
          }
       }
    
-   return (top(PilaCadena) == NULL);
+   if (top(PilaCadena) == NULL) return 1;
+   return 0;
 }
 
